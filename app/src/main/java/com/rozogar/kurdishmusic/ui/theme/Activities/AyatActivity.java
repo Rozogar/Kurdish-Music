@@ -3,7 +3,6 @@ package com.rozogar.kurdishmusic.ui.theme.Activities;
 import android.content.Intent;
 import android.os.Bundle;
 
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -32,12 +31,7 @@ public class AyatActivity extends AppCompatActivity {
         verticalLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         recyclerView.setLayoutManager(verticalLayoutManager);
 
-        refreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
-            @Override
-            public void onRefresh() {
-                refreshLayout.setRefreshing(false);
-            }
-        });
+        refreshLayout.setOnRefreshListener(() -> refreshLayout.setRefreshing(false));
 
 
     }
