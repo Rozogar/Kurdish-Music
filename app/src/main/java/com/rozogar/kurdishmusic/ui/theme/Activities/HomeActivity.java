@@ -66,10 +66,6 @@ public class HomeActivity extends AppCompatActivity {
         singer.add(new SingerModel(R.drawable.navid, getString(R.string.navid_zardi)));
         singer.add(new SingerModel(R.drawable.ayat_ahmadnezhad, getString(R.string.ayat_ahmadnezhad)));
         singer.add(new SingerModel(R.drawable.fariborz_namdari, getString(R.string.fariborz_namdari)));
-        singer.add(new SingerModel(R.drawable.roohollah_karami, getString(R.string.rohollah_karami)));
-        singer.add(new SingerModel(R.drawable.ramin_karami, getString(R.string.ramin_karami)));
-        singer.add(new SingerModel(R.drawable.mohamad_amiri, getString(R.string.mohammad_amiri)));
-        singer.add(new SingerModel(R.drawable.msoud_jalilian, getString(R.string.masoud_jalilian)));
     }
     private void setupView() {
         gridView = findViewById(R.id.gridview);

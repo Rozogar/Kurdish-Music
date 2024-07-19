@@ -10,14 +10,11 @@
     <string name="playy">Play</string>
     <string name="pausee">Pause</string>
     <string name="kurdish_songs">Kurdish Songs</string>
-    <string name="ramin_karami">Ramin Karami</string>
-    <string name="rohollah_karami">Rohollah Karami</string>
+
     <string name="fariborz_namdari">Fariborz Namdari</string>
     <string name="ayat_ahmadnezhad">Ayat Ahmadnezhad</string>
     <string name="navid_zardi">Navid Zardi</string>
     <string name="aziz_waisi">Aziz Waisi</string>
-    <string name="reza_karami_tara">Reza Karami Tara</string>
-    <string name="masoud_jalilian">Masoud Jalilian</string>
-    <string name="mohammad_amiri">Mohammad Amiri</string>
+
     <string name="about_us">About us</string>
 </resources>
