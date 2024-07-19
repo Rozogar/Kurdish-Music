@@ -11,20 +11,12 @@ import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
-
 import com.rozogar.kurdishmusic.R;
 import com.rozogar.kurdishmusic.ui.theme.Media.MediaPlayerManager;
 import com.rozogar.kurdishmusic.ui.theme.Model.MusicModel;
-
 import java.io.IOException;
 import java.util.ArrayList;
-
 public class PlayActivity extends AppCompatActivity {
     private ImageView img;
     private TextView txt1;
