@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">آهنک های کردی</string>
+    <string name="songs">آهنگ ها</string>
+    <string name="exit">خروج</string>
+    <string name="previous">قبلی</string>
+    <string name="next">بعدی</string>
+    <string name="play">پخش</string>
+    <string name="welcome">خوش آمدید</string>
+    <string name="pause">متوقف</string>
+    <string name="playy">پخش</string>
+    <string name="pausee">متوقف</string>
+    <string name="kurdish_songs">آهنگ های کردی</string>
+    <string name="ramin_karami">رامین کرمی</string>
+    <string name="rohollah_karami">روح الله کرمی</string>
+    <string name="fariborz_namdari">فریبرز نامداری</string>
+    <string name="ayat_ahmadnezhad">آیت احمد نژاد</string>
+    <string name="navid_zardi">نوید زردی</string>
+    <string name="aziz_waisi">عزیز ویسی</string>
+    <string name="reza_karami_tara">رضا کرمی تارا</string>
+    <string name="masoud_jalilian">مسعود جلیلیان</string>
+    <string name="mohammad_amiri">محمد امیری</string>
+    <string name="about_us">درباره ما</string>
+</resources>
