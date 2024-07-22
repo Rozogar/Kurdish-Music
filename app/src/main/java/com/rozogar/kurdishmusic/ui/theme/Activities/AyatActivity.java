@@ -38,16 +38,16 @@ public class AyatActivity extends AppCompatActivity {
 
     private void ayat() {
         ayamusicModel = new ArrayList<>();
-        ayamusicModel.add(new MusicModel(R.drawable.ayat, "Ayat Ahmad Nezhad 01", R.raw.ayat1));
-        ayamusicModel.add(new MusicModel(R.drawable.ayat, "Ayat Ahmad Nezhad 02", R.raw.ayat2));
-        ayamusicModel.add(new MusicModel(R.drawable.ayat, "Ayat Ahmad Nezhad 03", R.raw.ayat3));
-        ayamusicModel.add(new MusicModel(R.drawable.ayat, "Ayat Ahmad Nezhad 04", R.raw.ayat4));
-        ayamusicModel.add(new MusicModel(R.drawable.ayat, "Ayat Ahmad Nezhad 05", R.raw.ayat5));
-        ayamusicModel.add(new MusicModel(R.drawable.ayat, "Ayat Ahmad Nezhad 06", R.raw.ayat6));
-        ayamusicModel.add(new MusicModel(R.drawable.ayat, "Ayat Ahmad Nezhad 07", R.raw.ayat7));
-        ayamusicModel.add(new MusicModel(R.drawable.ayat, "Ayat Ahmad Nezhad 08", R.raw.ayat8));
-        ayamusicModel.add(new MusicModel(R.drawable.ayat, "Ayat Ahmad Nezhad 09", R.raw.ayat9));
-        ayamusicModel.add(new MusicModel(R.drawable.ayat, "Ayat Ahmad Nezhad 10", R.raw.ayat10));
+        ayamusicModel.add(new MusicModel(R.drawable.ayat, getString(R.string.ayat_ahmad_nezhad_01), R.raw.ayat1));
+        ayamusicModel.add(new MusicModel(R.drawable.ayat,  getString(R.string.ayat_ahmad_nezhad_02), R.raw.ayat2));
+        ayamusicModel.add(new MusicModel(R.drawable.ayat,  getString(R.string.ayat_ahmad_nezhad_03), R.raw.ayat3));
+        ayamusicModel.add(new MusicModel(R.drawable.ayat,  getString(R.string.ayat_ahmad_nezhad_04), R.raw.ayat4));
+        ayamusicModel.add(new MusicModel(R.drawable.ayat,  getString(R.string.ayat_ahmad_nezhad_05), R.raw.ayat5));
+        ayamusicModel.add(new MusicModel(R.drawable.ayat,  getString(R.string.ayat_ahmad_nezhad_06), R.raw.ayat6));
+        ayamusicModel.add(new MusicModel(R.drawable.ayat,  getString(R.string.ayat_ahmad_nezhad_07), R.raw.ayat7));
+        ayamusicModel.add(new MusicModel(R.drawable.ayat,  getString(R.string.ayat_ahmad_nezhad_08), R.raw.ayat8));
+        ayamusicModel.add(new MusicModel(R.drawable.ayat,  getString(R.string.ayat_ahmad_nezhad_09), R.raw.ayat9));
+        ayamusicModel.add(new MusicModel(R.drawable.ayat,  getString(R.string.ayat_ahmad_nezhad_10), R.raw.ayat10));
 
     }
 
@@ -63,16 +63,16 @@ public class AyatActivity extends AppCompatActivity {
 
     private void ahmadinezhad() {
         ayamusicModel = new ArrayList<>();
-        ayamusicModel.add(new MusicModel(R.drawable.ayat, "Ayat Ahmad Nezhad 01"));
-        ayamusicModel.add(new MusicModel(R.drawable.ayat, "Ayat Ahmad Nezhad 02"));
-        ayamusicModel.add(new MusicModel(R.drawable.ayat, "Ayat Ahmad Nezhad 03"));
-        ayamusicModel.add(new MusicModel(R.drawable.ayat, "Ayat Ahmad Nezhad 04"));
-        ayamusicModel.add(new MusicModel(R.drawable.ayat, "Ayat Ahmad Nezhad 05"));
-        ayamusicModel.add(new MusicModel(R.drawable.ayat, "Ayat Ahmad Nezhad 06"));
-        ayamusicModel.add(new MusicModel(R.drawable.ayat, "Ayat Ahmad Nezhad 07"));
-        ayamusicModel.add(new MusicModel(R.drawable.ayat, "Ayat Ahmad Nezhad 08"));
-        ayamusicModel.add(new MusicModel(R.drawable.ayat, "Ayat Ahmad Nezhad 09"));
-        ayamusicModel.add(new MusicModel(R.drawable.ayat, "Ayat Ahmad Nezhad 10"));
+        ayamusicModel.add(new MusicModel(R.drawable.ayat, getString(R.string.ayat_ahmad_nezhad_01)));
+        ayamusicModel.add(new MusicModel(R.drawable.ayat, getString(R.string.ayat_ahmad_nezhad_02)));
+        ayamusicModel.add(new MusicModel(R.drawable.ayat, getString(R.string.ayat_ahmad_nezhad_03)));
+        ayamusicModel.add(new MusicModel(R.drawable.ayat, getString(R.string.ayat_ahmad_nezhad_04)));
+        ayamusicModel.add(new MusicModel(R.drawable.ayat, getString(R.string.ayat_ahmad_nezhad_05)));
+        ayamusicModel.add(new MusicModel(R.drawable.ayat, getString(R.string.ayat_ahmad_nezhad_06)));
+        ayamusicModel.add(new MusicModel(R.drawable.ayat, getString(R.string.ayat_ahmad_nezhad_07)));
+        ayamusicModel.add(new MusicModel(R.drawable.ayat, getString(R.string.ayat_ahmad_nezhad_08)));
+        ayamusicModel.add(new MusicModel(R.drawable.ayat, getString(R.string.ayat_ahmad_nezhad_09)));
+        ayamusicModel.add(new MusicModel(R.drawable.ayat, getString(R.string.ayat_ahmad_nezhad_10)));
 
     }
 

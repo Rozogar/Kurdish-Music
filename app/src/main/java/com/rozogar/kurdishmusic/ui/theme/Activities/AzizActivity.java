@@ -47,16 +47,16 @@ public class AzizActivity extends AppCompatActivity {
 
     private void music() {
         azizmusicModel = new ArrayList<>();
-        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, "Aziz Waisi 01",R.raw.aziz_waisi_01));
-        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, "Aziz Waisi 02",R.raw.aziz_waisi_02));
-        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, "Aziz Waisi 03",R.raw.aziz_waisi_03));
-        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, "Aziz Waisi 04",R.raw.aziz_waisi_04));
-        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, "Aziz Waisi 05",R.raw.aziz_waisi_05));
-        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, "Aziz Waisi 06",R.raw.aziz_waisi_06));
-        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, "Aziz Waisi 07",R.raw.aziz_waisi_07));
-        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, "Aziz Waisi 08",R.raw.aziz_waisi_08));
-        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, "Aziz Waisi 09",R.raw.aziz_waisi_09));
-        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, "Aziz Waisi 10",R.raw.aziz_waisi_10));
+        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, getString(R.string.aziz_waisi_01),R.raw.aziz_waisi_01));
+        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, getString(R.string.aziz_waisi_02),R.raw.aziz_waisi_02));
+        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, getString(R.string.aziz_waisi_03),R.raw.aziz_waisi_03));
+        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, getString(R.string.aziz_waisi_04),R.raw.aziz_waisi_04));
+        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, getString(R.string.aziz_waisi_05),R.raw.aziz_waisi_05));
+        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, getString(R.string.aziz_waisi_06),R.raw.aziz_waisi_06));
+        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, getString(R.string.aziz_waisi_07),R.raw.aziz_waisi_07));
+        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, getString(R.string.aziz_waisi_08),R.raw.aziz_waisi_08));
+        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, getString(R.string.aziz_waisi_09),R.raw.aziz_waisi_09));
+        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, getString(R.string.aziz_waisi_10),R.raw.aziz_waisi_10));
 
 
     }
@@ -73,16 +73,16 @@ public class AzizActivity extends AppCompatActivity {
 
     private void adding() {
         azizmusicModel = new ArrayList<>();
-        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, "Aziz Waisi 01"));
-        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, "Aziz Waisi 02"));
-        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, "Aziz Waisi 03"));
-        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, "Aziz Waisi 04"));
-        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, "Aziz Waisi 05"));
-        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, "Aziz Waisi 06"));
-        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, "Aziz Waisi 07"));
-        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, "Aziz Waisi 08"));
-        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, "Aziz Waisi 09"));
-        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, "Aziz Waisi 10"));
+        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, getString(R.string.aziz_waisi_01)));
+        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, getString(R.string.aziz_waisi_02)));
+        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, getString(R.string.aziz_waisi_03)));
+        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, getString(R.string.aziz_waisi_04)));
+        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, getString(R.string.aziz_waisi_05)));
+        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, getString(R.string.aziz_waisi_06)));
+        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, getString(R.string.aziz_waisi_07)));
+        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, getString(R.string.aziz_waisi_08)));
+        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, getString(R.string.aziz_waisi_09)));
+        azizmusicModel.add(new MusicModel(R.drawable.kurdish_icon, getString(R.string.aziz_waisi_10)));
 
 
 

@@ -43,16 +43,16 @@ public class FariborzActivity extends AppCompatActivity {
 
     private void fariborz() {
         freemusicModel = new ArrayList<>();
-        freemusicModel.add(new MusicModel(R.drawable.fariborz, "Fariborze Namdari 01", R.raw.fariborz1));
-        freemusicModel.add(new MusicModel(R.drawable.fariborz, "Fariborze Namdari 02", R.raw.fariborz2));
-        freemusicModel.add(new MusicModel(R.drawable.fariborz, "Fariborze Namdari 03", R.raw.fariborz3));
-        freemusicModel.add(new MusicModel(R.drawable.fariborz, "Fariborze Namdari 04", R.raw.fariborz4));
-        freemusicModel.add(new MusicModel(R.drawable.fariborz, "Fariborze Namdari 05", R.raw.fariborz5));
-        freemusicModel.add(new MusicModel(R.drawable.fariborz, "Fariborze Namdari 06", R.raw.fariborz6));
-        freemusicModel.add(new MusicModel(R.drawable.fariborz, "Fariborze Namdari 07", R.raw.fariborz7));
-        freemusicModel.add(new MusicModel(R.drawable.fariborz, "Fariborze Namdari 08", R.raw.fariborz8));
-        freemusicModel.add(new MusicModel(R.drawable.fariborz, "Fariborze Namdari 09", R.raw.fariborz9));
-        freemusicModel.add(new MusicModel(R.drawable.fariborz, "Fariborze Namdari 10", R.raw.fariborz10));
+        freemusicModel.add(new MusicModel(R.drawable.fariborz, getString(R.string.fariborze_namdari_01), R.raw.fariborz1));
+        freemusicModel.add(new MusicModel(R.drawable.fariborz, getString(R.string.fariborze_namdari_02), R.raw.fariborz2));
+        freemusicModel.add(new MusicModel(R.drawable.fariborz, getString(R.string.fariborze_namdari_03), R.raw.fariborz3));
+        freemusicModel.add(new MusicModel(R.drawable.fariborz, getString(R.string.fariborze_namdari_04), R.raw.fariborz4));
+        freemusicModel.add(new MusicModel(R.drawable.fariborz, getString(R.string.fariborze_namdari_05), R.raw.fariborz5));
+        freemusicModel.add(new MusicModel(R.drawable.fariborz, getString(R.string.fariborze_namdari_06), R.raw.fariborz6));
+        freemusicModel.add(new MusicModel(R.drawable.fariborz, getString(R.string.fariborze_namdari_07), R.raw.fariborz7));
+        freemusicModel.add(new MusicModel(R.drawable.fariborz, getString(R.string.fariborze_namdari_08), R.raw.fariborz8));
+        freemusicModel.add(new MusicModel(R.drawable.fariborz, getString(R.string.fariborze_namdari_09), R.raw.fariborz9));
+        freemusicModel.add(new MusicModel(R.drawable.fariborz, getString(R.string.fariborze_namdari_10), R.raw.fariborz10));
 
 
     }
@@ -79,16 +79,16 @@ public class FariborzActivity extends AppCompatActivity {
 
     private void namdari() {
         freemusicModel = new ArrayList<>();
-        freemusicModel.add(new MusicModel(R.drawable.fariborz, "Fariborze Namdari 01"));
-        freemusicModel.add(new MusicModel(R.drawable.fariborz, "Fariborze Namdari 02"));
-        freemusicModel.add(new MusicModel(R.drawable.fariborz, "Fariborze Namdari 03"));
-        freemusicModel.add(new MusicModel(R.drawable.fariborz, "Fariborze Namdari 04"));
-        freemusicModel.add(new MusicModel(R.drawable.fariborz, "Fariborze Namdari 05"));
-        freemusicModel.add(new MusicModel(R.drawable.fariborz, "Fariborze Namdari 06"));
-        freemusicModel.add(new MusicModel(R.drawable.fariborz, "Fariborze Namdari 07"));
-        freemusicModel.add(new MusicModel(R.drawable.fariborz, "Fariborze Namdari 08"));
-        freemusicModel.add(new MusicModel(R.drawable.fariborz, "Fariborze Namdari 09"));
-        freemusicModel.add(new MusicModel(R.drawable.fariborz, "Fariborze Namdari 10"));
+        freemusicModel.add(new MusicModel(R.drawable.fariborz, getString(R.string.fariborze_namdari_01)));
+        freemusicModel.add(new MusicModel(R.drawable.fariborz, getString(R.string.fariborze_namdari_02)));
+        freemusicModel.add(new MusicModel(R.drawable.fariborz, getString(R.string.fariborze_namdari_03)));
+        freemusicModel.add(new MusicModel(R.drawable.fariborz, getString(R.string.fariborze_namdari_04)));
+        freemusicModel.add(new MusicModel(R.drawable.fariborz, getString(R.string.fariborze_namdari_05)));
+        freemusicModel.add(new MusicModel(R.drawable.fariborz, getString(R.string.fariborze_namdari_06)));
+        freemusicModel.add(new MusicModel(R.drawable.fariborz, getString(R.string.fariborze_namdari_07)));
+        freemusicModel.add(new MusicModel(R.drawable.fariborz, getString(R.string.fariborze_namdari_08)));
+        freemusicModel.add(new MusicModel(R.drawable.fariborz, getString(R.string.fariborze_namdari_09)));
+        freemusicModel.add(new MusicModel(R.drawable.fariborz, getString(R.string.fariborze_namdari_10)));
 
     }
 

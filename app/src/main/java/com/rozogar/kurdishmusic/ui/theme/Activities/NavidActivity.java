@@ -45,16 +45,16 @@ public class NavidActivity extends AppCompatActivity {
 
     private void navid() {
         navidmusicModel = new ArrayList<>();
-        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, "Navid Zardi 01",R.raw.navid1));
-        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, "Navid Zardi 02",R.raw.navid2));
-        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, "Navid Zardi 03",R.raw.navid3));
-        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, "Navid Zardi 04",R.raw.navid4));
-        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, "Navid Zardi 05",R.raw.navid5));
-        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, "Navid Zardi 06",R.raw.navid6));
-        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, "Navid Zardi 07",R.raw.navid7));
-        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, "Navid Zardi 08",R.raw.navid8));
-        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, "Navid Zardi 09",R.raw.navid9));
-        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, "Navid Zardi 10",R.raw.navid10));
+        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, getString(R.string.navid_zardi_01),R.raw.navid1));
+        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, getString(R.string.navid_zardi_02),R.raw.navid2));
+        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, getString(R.string.navid_zardi_03),R.raw.navid3));
+        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, getString(R.string.navid_zardi_04),R.raw.navid4));
+        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, getString(R.string.navid_zardi_05),R.raw.navid5));
+        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, getString(R.string.navid_zardi_06),R.raw.navid6));
+        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, getString(R.string.navid_zardi_07),R.raw.navid7));
+        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, getString(R.string.navid_zardi_08),R.raw.navid8));
+        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, getString(R.string.navid_zardi_09),R.raw.navid9));
+        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, getString(R.string.navid_zardi_10),R.raw.navid10));
 
     }
 
@@ -71,16 +71,16 @@ public class NavidActivity extends AppCompatActivity {
 
     private void zardi() {
         navidmusicModel = new ArrayList<>();
-        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, "Navid Zardi 01"));
-        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, "Navid Zardi 02"));
-        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, "Navid Zardi 03"));
-        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, "Navid Zardi 04"));
-        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, "Navid Zardi 05"));
-        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, "Navid Zardi 06"));
-        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, "Navid Zardi 07"));
-        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, "Navid Zardi 08"));
-        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, "Navid Zardi 09"));
-        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, "Navid Zardi 10"));
+        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, getString(R.string.navid_zardi_01)));
+        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, getString(R.string.navid_zardi_02)));
+        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, getString(R.string.navid_zardi_03)));
+        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, getString(R.string.navid_zardi_04)));
+        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, getString(R.string.navid_zardi_05)));
+        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, getString(R.string.navid_zardi_06)));
+        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, getString(R.string.navid_zardi_07)));
+        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, getString(R.string.navid_zardi_08)));
+        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, getString(R.string.navid_zardi_09)));
+        navidmusicModel.add(new MusicModel(R.drawable.navid_zardi, getString(R.string.navid_zardi_10)));
 
     }
 
